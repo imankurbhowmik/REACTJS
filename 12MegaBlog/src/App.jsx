@@ -25,7 +25,7 @@ function App() {
   }, []);
 
   return !loading ? (
-    <div className="min-h-screen flex flex-col bg-gray-100">
+    <div>
     test
     <div className='w-full block'>
       <Header/>
