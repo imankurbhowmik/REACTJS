@@ -1,6 +1,8 @@
 import React from 'react'
-import {Editor} from '@tinymce/tinymce-react'
+import { Editor } from "@tinymce/tinymce-react";
+
 import { Controller } from 'react-hook-form'
+
 
 function RTE({name,control, label, defaultValue= ""}) {
     return (
@@ -52,3 +54,4 @@ function RTE({name,control, label, defaultValue= ""}) {
 }
 
 export default RTE
+
