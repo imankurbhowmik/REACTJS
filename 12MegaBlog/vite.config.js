@@ -8,7 +8,7 @@ export default defineConfig({
     alias: {
       '@tinymce/tinymce-react': path.resolve(
         __dirname,
-        'node_modules/@tinymce/lib/cjs/main/ts/index.js'
+        'node_modules/@tinymce/lib/cjs/main.js'
       ),
     },
   },
